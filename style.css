@@ -1,0 +1,50 @@
+body {
+	min-width: 1220px;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: 'Roboto Medium', arial;
+	color: #000000;
+	background-color: white;
+}
+.container {
+	width: 1220px;
+	margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.page-header {
+	min-height: 436px;
+	padding-top: 27px;
+	background-color: #eeeeee;
+}
+.header-top {
+    margin-bottom: 125px;
+}
+.header-logo {
+	float: left;
+	width: 139px;
+	height: 56px;
+}
+.main-nav {
+	float: left;
+	width: 400px;
+	list-style: none;
+}
+.main-nav li {
+	text-transform: uppercase;
+}
+.main-nav a {
+	color: #000000;
+	text-decoration: none;
+}
+.btn-basket {
+	float: right;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
